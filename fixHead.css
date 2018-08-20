@@ -1,0 +1,31 @@
+.fixHead-line{
+    display: flex;
+}
+
+.fixHead-head-note{
+    padding-left: 10px;
+    border-left: 20px solid #2196F3;
+}
+
+.fixHead-block {
+    flex-shrink: 0;
+    width: 500px;
+    border: 1px solid #eee;
+}
+
+.fixHead-head {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.fixHead-head .fixHead-block {
+    height: 200px;
+}
+
+.fixHead-body {
+    overflow: scroll;
+}
+
+.fixHead-body .fixHead-block {
+    height: 1200px;
+}
