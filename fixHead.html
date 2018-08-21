@@ -10,10 +10,13 @@
     <script src="./jquery-3.3.1.min.js"></script>
     <script src="./fixHead.js"></script>
     <style>
-        .fixHead {
-            margin: 0 auto;
-            width: 1200px;
-        }
+    .fixHead {
+        margin: 0 auto;
+        width: 1200px;
+    }
+    .fixHead-body .fixHead-block {
+        height: 500px;
+    }
     </style>
 </head>
 
@@ -21,23 +24,25 @@
     <div id='qqq' class="fixHead">
         <div class="fixHead-head">
             <div class="fixHead-line">
-                <div class="fixHead-block">
-                    <h1>我是标题</h1>
-                </div>
-                <div class="fixHead-block">
-                    <h1>我是标题</h1>
-                </div>
-                <div class="fixHead-block">
-                    <h1>我是标题</h1>
-                </div>
-                <div class="fixHead-block">
-                    <h1>我是标题</h1>
-                </div>
-                <div class="fixHead-block">
-                    <h1>我是标题</h1>
-                </div>
-                <div class="fixHead-block">
-                    <h1>我是标题</h1>
+                <div class="fixHead-line-content">
+                    <div class="fixHead-block">
+                        <h1>我是标题</h1>
+                    </div>
+                    <div class="fixHead-block">
+                        <h1>我是标题</h1>
+                    </div>
+                    <div class="fixHead-block">
+                        <h1>我是标题</h1>
+                    </div>
+                    <div class="fixHead-block">
+                        <h1>我是标题</h1>
+                    </div>
+                    <div class="fixHead-block">
+                        <h1>我是标题</h1>
+                    </div>
+                    <div class="fixHead-block">
+                        <h1>我是标题</h1>
+                    </div>
                 </div>
             </div>
             <div class="fixHead-line">
@@ -46,49 +51,55 @@
         </div>
         <div class="fixHead-body">
             <div class="fixHead-line" data-note='1111111'>
-                <div class="fixHead-block">
-                    <p>我是内容</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容2</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容3</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容2</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容3</p>
+                <div class="fixHead-line-title">1111111</div>
+                <div class="fixHead-line-content">
+                    <div class="fixHead-block">
+                        <p>我是内容</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容2</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容3</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容2</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容3</p>
+                    </div>
                 </div>
             </div>
             <div class="fixHead-line" data-note='2222222'>
-                <div class="fixHead-block">
-                    <p>我是内容</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容2</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容3</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容2</p>
-                </div>
-                <div class="fixHead-block">
-                    <p>我是内容3</p>
+                <div class="fixHead-line-title">2222222</div>
+                <div class="fixHead-line-content">
+                    <div class="fixHead-block">
+                        <p>我是内容</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容2</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容3</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容2</p>
+                    </div>
+                    <div class="fixHead-block">
+                        <p>我是内容3</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script>
-        fixHead.init('#qqq');
+    fixHead.init('#qqq');
     </script>
 </body>
 

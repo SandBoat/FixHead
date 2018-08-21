@@ -1,8 +1,13 @@
-.fixHead-line{
+.fixHead-line-content {
     display: flex;
 }
 
-.fixHead-head-note{
+.fixHead-line-title {
+    padding-left: 10px;
+    border-left: 20px solid #8BC34A;
+}
+
+.fixHead-head-note {
     padding-left: 10px;
     border-left: 20px solid #2196F3;
 }
@@ -24,8 +29,4 @@
 
 .fixHead-body {
     overflow: scroll;
-}
-
-.fixHead-body .fixHead-block {
-    height: 1200px;
 }
